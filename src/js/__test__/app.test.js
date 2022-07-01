@@ -6,7 +6,7 @@ test('should show popover', async () => {
   //  slowMo: 250,
 
   const page = await browser.newPage();
-  await page.goto('http://localhost:8000');
+  await page.goto('https://milanna6084.github.io/AHJ--forms/');
   await page.click('.button');
   const popover = await page.$('.popover');
   expect(popover).toBeDefined();
